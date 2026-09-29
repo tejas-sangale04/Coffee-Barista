@@ -3,56 +3,532 @@
     "name": "Espresso Solo",
     "description": "A single shot of rich, bold espresso.",
     "price": 2.50,
+    "category": "coffee",
+    "subcategory": "espresso",
     "tags": ["strong", "hot", "dairy-free", "sugar-free"],
-    "allergens": []
+    "ingredients": ["espresso"],
+    "allergens": [],
+    "dietary": {
+      "vegan": true,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "high",
+      "acidity": "medium",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 40
+    },
+    "nutrition": {
+      "calories": 8,
+      "protein_g": 1.7,
+      "carbohydrates_g": 1.7,
+      "fat_g": 0,
+      "sugar_g": 0
+    },
+    "caffeine": {
+      "amount_mg": 63,
+      "level": "medium"
+    },
+    "search_text": "Espresso Solo strong hot bold espresso low sweetness dairy free sugar free"
   },
   {
     "name": "Oat Milk Honey Latte",
     "description": "Creamy steamed oat milk with espresso and a touch of honey.",
     "price": 5.00,
+    "category": "coffee",
+    "subcategory": "latte",
     "tags": ["sweet", "hot", "dairy-free"],
-    "allergens": []
+    "ingredients": ["espresso", "oat milk", "honey"],
+    "allergens": [],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "high",
+      "bitterness": "low",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 250
+    },
+    "nutrition": {
+      "calories": 133,
+      "protein_g": 1,
+      "carbohydrates_g": 24,
+      "fat_g": 3.4,
+      "sugar_g": 5
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Oat Milk Honey Latte sweet hot creamy oat milk honey dairy free latte"
   },
   {
     "name": "Cold Brew Coffee",
     "description": "Smooth, slow-steeped cold brew served over ice.",
     "price": 4.00,
+    "category": "coffee",
+    "subcategory": "cold_brew",
     "tags": ["strong", "cold", "dairy-free", "sugar-free"],
-    "allergens": []
+    "ingredients": ["coffee", "water", "ice"],
+    "allergens": [],
+    "dietary": {
+      "vegan": true,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "medium",
+      "acidity": "low",
+      "body": "medium"
+    },
+    "serving": {
+      "temperature": "cold",
+      "size_ml": 236.6
+    },
+    "nutrition": {
+      "calories": 10,
+      "protein_g": 0.5,
+      "carbohydrates_g": 2,
+      "fat_g": 0,
+      "sugar_g": 0
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "high"
+    },
+    "search_text": "Cold Brew Coffee smooth cold strong dairy free sugar free cold brew"
   },
   {
     "name": "Seasonal Pumpkin Latte",
     "description": "Spiced pumpkin sauce, espresso, and steamed milk, topped with whipped cream.",
     "price": 5.50,
+    "category": "coffee",
+    "subcategory": "latte",
     "tags": ["sweet", "hot", "seasonal"],
-    "allergens": ["dairy"]
-  },
-  {
-    "name": "Classic Croissant",
-    "description": "Flaky, buttery traditional French pastry.",
-    "price": 3.50,
-    "tags": ["bakery", "savory"],
-    "allergens": ["wheat", "dairy"]
-  },
-  {
-    "name": "Vegan Blueberry Muffin",
-    "description": "Soft, sweet muffin packed with real blueberries, entirely plant-based.",
-    "price": 3.75,
-    "tags": ["bakery", "sweet", "dairy-free", "vegan"],
-    "allergens": ["wheat"]
+    "ingredients": ["espresso", "milk", "pumpkin sauce", "whipped cream"],
+    "allergens": ["dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "high",
+      "bitterness": "low",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 237
+    },
+    "nutrition": {
+      "calories": 216,
+      "protein_g": 7.7,
+      "carbohydrates_g": 24,
+      "fat_g": 9.9,
+      "sugar_g": 22.9
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Seasonal Pumpkin Latte sweet hot pumpkin espresso milk seasonal latte"
   },
   {
     "name": "Nitro Cold Brew",
-    "description": "Cold brew infused with nitrogen for a super smooth, creamy head.",
+    "description": "Cold brew infused with nitrogen for a smooth and creamy texture.",
     "price": 4.50,
+    "category": "coffee",
+    "subcategory": "cold_brew",
     "tags": ["strong", "cold", "dairy-free", "sugar-free"],
-    "allergens": []
+    "ingredients": ["coffee", "water", "nitrogen"],
+    "allergens": [],
+    "dietary": {
+      "vegan": true,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "medium",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "cold",
+      "size_ml": 591
+    },
+    "nutrition": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbohydrates_g": 0,
+      "fat_g": 0,
+      "sugar_g": 0
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "high"
+    },
+    "search_text": "Nitro Cold Brew smooth creamy cold strong dairy free sugar free"
   },
   {
     "name": "Iced Caramel Macchiato",
     "description": "Chilled milk and vanilla syrup marked with espresso and caramel drizzle.",
     "price": 5.25,
+    "category": "coffee",
+    "subcategory": "macchiato",
     "tags": ["sweet", "cold"],
-    "allergens": ["dairy"]
+    "ingredients": ["espresso", "milk", "vanilla syrup", "caramel"],
+    "allergens": ["dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "high",
+      "bitterness": "low",
+      "acidity": "low",
+      "body": "medium"
+    },
+    "serving": {
+      "temperature": "cold",
+      "size_ml": 120
+    },
+    "nutrition": {
+      "calories": 48,
+      "protein_g": 2.5,
+      "carbohydrates_g": 8.5,
+      "fat_g": 0.3,
+      "sugar_g": 7.8
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Iced Caramel Macchiato sweet cold caramel vanilla milk espresso"
+  },
+  {
+    "name": "Americano",
+    "description": "Espresso diluted with hot water for a smooth and bold coffee.",
+    "price": 3.00,
+    "category": "coffee",
+    "subcategory": "americano",
+    "tags": ["strong", "hot", "dairy-free", "sugar-free"],
+    "ingredients": ["espresso", "water"],
+    "allergens": [],
+    "dietary": {
+      "vegan": true,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "medium",
+      "acidity": "medium",
+      "body": "medium"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 237
+    },
+    "nutrition": {
+      "calories": 0,
+      "protein_g": 0,
+      "carbohydrates_g": 0,
+      "fat_g": 0,
+      "sugar_g": 0
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Americano strong hot black coffee dairy free sugar free espresso water"
+  },
+  {
+    "name": "Cappuccino",
+    "description": "Espresso combined with steamed milk and a layer of milk foam.",
+    "price": 3.36,
+    "category": "coffee",
+    "subcategory": "cappuccino",
+    "tags": ["creamy", "hot", "medium"],
+    "ingredients": ["espresso", "milk"],
+    "allergens": ["dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "medium",
+      "bitterness": "medium",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 237
+    },
+    "nutrition": {
+      "calories": 104,
+      "protein_g": 0.4,
+      "carbohydrates_g": 0,
+      "fat_g": 0,
+      "sugar_g": 0
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Cappuccino creamy hot espresso milk foam medium coffee"
+  },
+  {
+    "name": "Mocha",
+    "description": "Espresso blended with chocolate and steamed milk.",
+    "price": 5.00,
+    "category": "coffee",
+    "subcategory": "mocha",
+    "tags": ["sweet", "hot", "chocolate"],
+    "ingredients": ["espresso", "milk", "chocolate sauce"],
+    "allergens": ["dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "high",
+      "bitterness": "medium",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 350
+    },
+    "nutrition": {
+      "calories": 290,
+      "protein_g": 10.0,
+      "carbohydrates_g": 35.0,
+      "fat_g": 13.0,
+      "sugar_g": 27.0
+    },
+    "caffeine": {
+      "amount_mg": 95,
+      "level": "medium"
+    },
+    "search_text": "Mocha sweet hot chocolate espresso milk chocolate coffee"
+  },
+  {
+    "name": "Iced Americano",
+    "description": "Espresso poured over cold water and ice for a refreshing black coffee.",
+    "price": 3.50,
+    "category": "coffee",
+    "subcategory": "americano",
+    "tags": ["strong", "cold", "dairy-free", "sugar-free"],
+    "ingredients": ["espresso", "water", "ice"],
+    "allergens": [],
+    "dietary": {
+      "vegan": true,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "medium",
+      "acidity": "medium",
+      "body": "light"
+    },
+    "serving": {
+      "temperature": "cold",
+      "size_ml": 350
+    },
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null,
+      "sugar_g": null
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Iced Americano cold strong black coffee dairy free sugar free"
+  },
+  {
+    "name": "Vanilla Latte",
+    "description": "Espresso with steamed milk and vanilla syrup.",
+    "price": 5.00,
+    "category": "coffee",
+    "subcategory": "latte",
+    "tags": ["sweet", "hot", "vanilla", "creamy"],
+    "ingredients": ["espresso", "milk", "vanilla syrup"],
+    "allergens": ["dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "high",
+      "bitterness": "low",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 350
+    },
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null,
+      "sugar_g": null
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "medium"
+    },
+    "search_text": "Vanilla Latte sweet hot creamy vanilla espresso milk"
+  },
+  {
+    "name": "Flat White",
+    "description": "Espresso combined with finely textured steamed milk for a rich coffee flavor.",
+    "price": 4.75,
+    "category": "coffee",
+    "subcategory": "flat_white",
+    "tags": ["strong", "hot", "creamy"],
+    "ingredients": ["espresso", "milk"],
+    "allergens": ["dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": true
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "medium",
+      "acidity": "low",
+      "body": "full"
+    },
+    "serving": {
+      "temperature": "hot",
+      "size_ml": 180
+    },
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null,
+      "sugar_g": null
+    },
+    "caffeine": {
+      "amount_mg": null,
+      "level": "high"
+    },
+    "search_text": "Flat White strong hot creamy espresso milk rich coffee"
+  },
+  {
+    "name": "Classic Croissant",
+    "description": "Flaky, buttery traditional French pastry.",
+    "price": 3.50,
+    "category": "pastry",
+    "subcategory": "croissant",
+    "tags": ["bakery", "savory"],
+    "ingredients": ["wheat flour", "butter", "water", "salt"],
+    "allergens": ["wheat", "dairy"],
+    "dietary": {
+      "vegan": false,
+      "vegetarian": true,
+      "dairy_free": false,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "low",
+      "bitterness": "none",
+      "acidity": "none",
+      "body": "light"
+    },
+    "serving": {
+      "temperature": "room_temperature",
+      "size_ml": null
+    },
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null,
+      "sugar_g": null
+    },
+    "caffeine": {
+      "amount_mg": 0,
+      "level": "none"
+    },
+    "search_text": "Classic Croissant flaky buttery French pastry bakery savory wheat dairy"
+  },
+  {
+    "name": "Vegan Blueberry Muffin",
+    "description": "Soft, sweet muffin packed with blueberries and made without animal products.",
+    "price": 3.75,
+    "category": "pastry",
+    "subcategory": "muffin",
+    "tags": ["bakery", "sweet", "dairy-free", "vegan"],
+    "ingredients": ["wheat flour", "blueberries", "plant-based ingredients"],
+    "allergens": ["wheat"],
+    "dietary": {
+      "vegan": true,
+      "vegetarian": true,
+      "dairy_free": true,
+      "sugar_free": false
+    },
+    "flavor_profile": {
+      "sweetness": "high",
+      "bitterness": "none",
+      "acidity": "low",
+      "body": "soft"
+    },
+    "serving": {
+      "temperature": "room_temperature",
+      "size_ml": null
+    },
+    "nutrition": {
+      "calories": null,
+      "protein_g": null,
+      "carbohydrates_g": null,
+      "fat_g": null,
+      "sugar_g": null
+    },
+    "caffeine": {
+      "amount_mg": 0,
+      "level": "none"
+    },
+    "search_text": "Vegan Blueberry Muffin sweet bakery blueberry vegan dairy free"
   }
 ]
